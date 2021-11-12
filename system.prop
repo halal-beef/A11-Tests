@@ -1,0 +1,6 @@
+ro.product.brand=Nokia
+ro.product.name=2.2
+ro.product.device=2.2
+ro.build.product=2.2
+ro.debuggable=1
+ro.treble.enabled=true
