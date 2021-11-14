@@ -16,7 +16,7 @@
 #
 
 #add_lunch_combo twrp_Power_Armor_13-userdebug
-#add_lunch_combo twrp_Power_Armor_13-eng
+add_lunch_combo twrp_Wasp-eng
 #add_brunch_combo twrp_Power_Armor_13-eng
 #COMMON_LUNCH_CHOICES twrp_Power_Armor_13-userdebug
 #COMMON_LUNCH_CHOICES twrp_Power_Armor_13-eng
