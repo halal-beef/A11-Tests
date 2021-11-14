@@ -14,8 +14,9 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/nokia/Wasp
+LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),Wasp)
-include $(call all-subdir-makefiles,$(LOCAL_PATH))
+ifneq ($(filter Wasp,$(TARGET_DEVICE)),)
+include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
+
