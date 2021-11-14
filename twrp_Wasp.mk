@@ -16,7 +16,7 @@
 LOCAL_PATH := device/nokia/Wasp
 
 # Inherit from device
-$(call inherit-product, device/Nokia/Wasp/device.mk)
+$(call inherit-product, device/nokia/Wasp/device.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/twrp/config/common.mk)
